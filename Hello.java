@@ -1,19 +1,19 @@
 class Main {
   public static void main(String[] args) {
-    int length = 6;
-    int height = 8;
+    int month = 12;
+    int date = 31;
     
-    // 変数rectangleAreaに、四角形の面積を代入してください
-    int rectangleArea = length * height;
+    // 「12月31日」となるように変数と文字列を連結して出力してください
+    System.out.println(month + "月" + date + "日");
     
-    // 変数rectangleAreaを出力してください
-    System.out.println(rectangleArea);
+    // 7を2で割った値を出力してください
+    System.out.println(7 / 2);
     
-    // 変数triangleAreaに、三角形の面積を代入してください
-    int triangleArea = length * height / 2;
+    // 7.0を2.0で割った値を出力してください
+    System.out.println(7.0 / 2.0);
     
-    // 変数triangleAreaを出力してください
-    System.out.println(triangleArea);
+    // 7を2.0で割った値を出力してください
+    System.out.println(7 / 2.0);
     
   }
 }
